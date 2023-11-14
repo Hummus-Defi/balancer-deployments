@@ -1,0 +1,1 @@
+Task to deploy and verify the QuadCrypto pool.

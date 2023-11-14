@@ -46,5 +46,13 @@
   "fantom": {
     "chainId": 250,
     "block-explorer": "https://ftmscan.com"
+  },
+  "metis": {
+    "chainId": 1088,
+    "block-explorer": "https://andromeda-explorer.metis.io"
+  },
+  "metisGoerli": {
+    "chainId": 599,
+    "block-explorer": "https://goerli.explorer.metisdevops.link"
   }
 }

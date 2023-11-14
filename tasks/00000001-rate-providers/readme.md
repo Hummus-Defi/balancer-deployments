@@ -1,0 +1,1 @@
+Not a real task. Collection of Rate Provider addresses to be used in Pool Creation scripts.

@@ -456,6 +456,22 @@ export default {
           browserURL: 'https://ftmscan.com',
         },
       },
+      {
+        network: 'metis',
+        chainId: 1088,
+        urls: {
+          apiURL: 'https://andromeda-explorer.metis.io/api',
+          browserURL: 'https://andromeda-explorer.metis.io',
+        },
+      },
+      {
+        network: 'metisGoerli',
+        chainId: 599,
+        urls: {
+          apiURL: 'https://goerli.explorer.metisdevops.link/api',
+          browserURL: 'https://goerli.explorer.metisdevops.link',
+        },
+      },
     ],
   },
 };
