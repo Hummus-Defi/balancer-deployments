@@ -42,4 +42,10 @@ export default {
   fantom: {
     admin: '0x4fbe899d37fb7514adf2f41B0630E018Ec275a0C',
   },
+  metis: {
+    admin: '0xfeedC50149AEeD26AA262927D02F720F96580647',
+  },
+  metisGoerli: {
+    admin: '0xfeedC50149AEeD26AA262927D02F720F96580647',
+  },
 };
