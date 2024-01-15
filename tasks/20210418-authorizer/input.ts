@@ -48,4 +48,7 @@ export default {
   metisGoerli: {
     admin: '0xfeedC50149AEeD26AA262927D02F720F96580647',
   },
+  metisSepolia: {
+    admin: '0xfeedC50149AEeD26AA262927D02F720F96580647',
+  },
 };

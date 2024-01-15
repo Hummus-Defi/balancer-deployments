@@ -20,6 +20,7 @@ export const NETWORKS = [
   'fantom',
   'metis',
   'metisGoerli',
+  'metisSepolia'
 ];
 
 export type Network = (typeof NETWORKS)[number];

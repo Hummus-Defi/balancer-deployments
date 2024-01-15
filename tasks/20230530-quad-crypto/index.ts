@@ -16,6 +16,8 @@ export default async (task: Task, { force, from }: TaskRunOptions = {}): Promise
   let rateProviders: string[] = [];
   if (task.network === 'metisGoerli') {
     rateProviders = [input.USDC_PROVIDER, input.BTC_PROVIDER, input.ETH_PROVIDER, input.METIS_PROVIDER];
+  } else if (task.network == 'metisSepolia') {
+    rateProviders = [input.BTC_PROVIDER, input.USDC_PROVIDER, input.ETH_PROVIDER, input.METIS_PROVIDER];
   } else if (task.network === 'metis') {
     rateProviders = [input.ETH_PROVIDER, input.BTC_PROVIDER, input.METIS_PROVIDER, input.USDC_PROVIDER];
   } else {

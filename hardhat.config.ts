@@ -472,6 +472,14 @@ export default {
           browserURL: 'https://goerli.explorer.metisdevops.link',
         },
       },
+      {
+        network: 'metisSepolia',
+        chainId: 59901,
+        urls: {
+          apiURL: 'https://sepolia.explorer.metisdevops.link/api',
+          browserURL: 'https://sepolia.explorer.metisdevops.link',
+        },
+      },
     ],
   },
 };

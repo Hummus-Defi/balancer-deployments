@@ -54,5 +54,9 @@
   "metisGoerli": {
     "chainId": 599,
     "block-explorer": "https://goerli.explorer.metisdevops.link"
+  },
+  "metisSepolia": {
+    "chainId": 59901,
+    "block-explorer": "https://sepolia.explorer.metisdevops.link"
   }
 }
