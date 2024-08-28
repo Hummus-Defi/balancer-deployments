@@ -28,8 +28,8 @@ export default async (task: Task, { force, from }: TaskRunOptions = {}): Promise
   // Pools are automatically verified. We however don't run any of this code in CHECK mode, since we don't care about
   // the contracts deployed here. The action IDs will be checked to be correct via a different mechanism.
   const newWeightedPoolParams = {
-    name: 'Hummus 80 METIS 20 WETH',
-    symbol: 'H-80METIS-20WETH',
+    name: 'Metis Moussaka',
+    symbol: 'MM',
     tokens: [input.WETH, input.ETH].sort(function (a, b) {
       return a.toLowerCase().localeCompare(b.toLowerCase());
     }),
